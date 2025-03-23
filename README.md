@@ -1,37 +1,52 @@
-## Description
+Air Traffic
 
-Projeto autoral
+Descrição do Projeto
 
-## Resources
+O Air Traffic é um projeto que simula o tráfego aéreo, fornecendo visualização de tarefas e controle de movimentação de aeronaves. O objetivo é criar um sistema interativo para estudar padrões de tráfego e melhorar a segurança da navegação aérea.
 
-# Estrutura de pessoas
+Tecnologias Utilizadas
 
-    - Chefe
-        - Seção Operacional
-            - Controlador
-                - Assistente
-            - Meteorologista
-                - Auxiliar de instrumento
+Linguagem: [ JavaScript]
 
-        - Seção Técnica
-            - Técnico
-                - Eletricista
+Frameworks: [ Node.js e Nest]
 
-        - Seção administrativa
-            - Secretário
+Banco de Dados: [ PostgreSQL]
 
-## Estrutura de serviços
+Outras Ferramentas: Docker, CI/CD (GitHub Actions)
 
-## Project setup
+Como Executar o Projeto
 
-## Compile and run the project
+Requisitos
 
-## Run tests
+Docker e Docker Compose (opcional)
 
-## Deployment
+Node.js
 
-## Support
+Banco de Dados configurado
 
-## Stay in touch
+Passos para Execução
 
-## License
+Clone o repositório:
+
+git clone https://github.com/lgdacruz/air-traffic.git
+cd air-traffic
+
+Instale as dependências:
+
+npm install
+
+cp .env.example .env
+
+# Edite o arquivo .env conforme necessário
+
+Execute a aplicação:
+
+npm run start:dev
+
+Acesse no navegador:
+
+http://localhost:3000 # ou a porta configurada
+
+## Funcionalidades Principais
+
+- Visualização de tarefas em tempo real relacionado ao funcionário responsável
