@@ -2,7 +2,7 @@ Air Traffic
 
 Descrição do Projeto
 
-O Air Traffic é um projeto que simula o tráfego aéreo, fornecendo visualização de tarefas e controle de movimentação de aeronaves. O objetivo é criar um sistema interativo para estudar padrões de tráfego e melhorar a segurança da navegação aérea.
+O Air Traffic é uma API de tarefas para empresas, fornece um CRUD de tarefas e empregados, implementa filas (queue) para notificacoes por email e consome um microsservico feito em Express de Logs que pode ser conferido aqui (). O objetivo é criar um sistema interativo para melhorar a produtividade e gerir melhor as acoes e o tempo dos funcionários.
 
 Tecnologias Utilizadas
 
@@ -10,7 +10,13 @@ Linguagem: [ JavaScript]
 
 Frameworks: [ Node.js e Nest]
 
-Banco de Dados: [ PostgreSQL]
+Banco de Dados SQL: [ PostgreSQL]
+
+Banco de Dados NoSQL: [ DynamoDB]
+
+Filas: [ Redis]
+
+Envio de email: [ Nodemailer]
 
 Outras Ferramentas: Docker, CI/CD (GitHub Actions)
 
